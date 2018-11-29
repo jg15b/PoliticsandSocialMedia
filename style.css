@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/*Jamie Graves 10/26/2017*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #1E1C59;
+	background-color: #1E1C59;
+
+}
+
+/* basic text styles ----------------------------  */
+li, td {
+	letter-spacing: 0.1em;
+	color: #010026;
+	padding: 0 40px;
+	margin: 0;
+}
+p {
+	letter-spacing: 0.1em;
+	color: #010026;
+	padding: 20px 40px 0 40px;
+	margin: 0;
+}
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-variant: small-caps;
+	line-height: 2em;
+	margin: 0;
+	background-color: #eee;
+	vertical-align: middle;
+	padding: 20px 0 20px 0;
+}
+h2 {
+	font-size: 15px;
+	padding: 12px;
+	text-align: center;
+	font-variant: small-caps;
+	letter-spacing: 0.3em;
+	background-color: #A61212;
+	color: #EAF2E4;
+	margin: 0;
+}
+h2 em {
+	width: 900px;
+}
+
+
+/* link styles ---------------------------- */
+a:link, a:visited{
+	font-weight: bold;
+	color: #1B21A6;
+	text-decoration: none;
+}
+a:hover{
+	color: #F2BC57;
+}
+
+/* list styles ----------------------------- */
+ul {
+	margin-left: 20px;
+}
+ul li{
+	padding-left: 0;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #A61212 1px;
+}
+td {
+	padding: 6px;
+	border: solid #A61212 1px;
+	color: #1E1C59;
+}
+th {
+	font-weight: bold;
+	background-color: #A61212;
+	text-align: center;
+	padding: 6px;
+	border: solid #A61212 1px;
+	color: #EAF2E4;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #A61212 2px;
+}
+
+img {
+	vertical-align: middle;
+	justify-content: center;
+}
+iframe {
+	border: solid #1B21A6;
+	padding: 8px;
+	margin: 8px;
+}
+
+/* DIV STYLES FOR PAGE LAYOUT */
+#container {
+	width: 900px;
+	border: 0 solid #1E1C59;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#header {
+	width: 100%;
+	padding: 0;
+	background-color: #A61212;
+	text-align: center;
+	margin: 0;
+}
+#content {
+	padding: 0;
+	margin: 0;
+	padding-bottom: 60px;
+	width: 600px;
+}
+#footer {
+	width:900px;
+	padding: 30px 20px 30px 40px;
+	background-color: #eee;
+	margin: 0;
+	border-top: 4px solid #A61212;
+	clear: both;
+}
+#sidebar {
+	width: 280px;
+	float: left;
+	margin: 20px;
+	display: block;
+}
+#sidebar img {
+	margin-top: 100px;
+}
+#content img {
+	display: block;
+    margin: auto;
+}
+#actualContent {
+  width: 900px;
+  float: left;
+}

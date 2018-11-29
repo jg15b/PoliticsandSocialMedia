@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+/* ----------------- NAVIGATION BAR STYLES -------------------*/ 
+/* TABBED NAVIGATION */
+#header {
+    text-align: center;
+}
+#navbar {
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    margin: 0; 
+}   
+
+#menu {
+    list-style: none; 
+} 
+#menu li {
+    display: inline-block;
+}
+#menu li a.button {
+	background-color: #A61212; /* button/tab color */
+	color: #1E1C59; /* font color */
+	font-size: 1em;
+	text-decoration: none; /* removes the link underline */
+	/* the padding define the size of the buttons */
+	/* increase bottom padding for tabs with hidden bottoms so tab text can be seen*/
+	padding: 20px 90px 25px 90px; 	
+	/* rounded corners turn buttons into tabs when bottom of button is hidden */
+	border-radius: 0px; 
+	border: solid 0px; /* 1-pixel border around buttons. */
+}
+/* styles for the currently selected page should be different to make it stand out */
+/* also you want to discourage users from clicking the button for the current page */
+#menu li a.button.selected{
+	background-color: #eee; /* matching the color of the content background color */
+	color: #1E1C59; /* font color */
+	font-style: italic;
+}
+/* visited link font colors */
+#menu li a.button:visited {
+	color: #fff;
+}  
+#menu li a.button:visited.selected{
+	color: #000;
+} 
+/* hover link styles */
+#menu li a.button:hover {
+	background-color: #1E1C59;
+	color: #fff;
+	height: 45px;
+} 
+/* selected button shouldn't change on hover */ 
+#menu li a.button:hover.selected{ 
+	background-color: #eee;
+	color: #000;
+} 
+
